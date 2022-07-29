@@ -1,0 +1,18 @@
+.nav{
+  display: flex;
+  align-content: center;
+  column-gap: 40px;
+  &__active{
+    border-bottom: 2px solid #111111;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #111111;
+  }
+  &__item{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #111111;
+  }
+}
