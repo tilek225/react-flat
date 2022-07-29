@@ -1,0 +1,42 @@
+.header{
+  padding: 30px;
+  position: relative;
+  &::after{
+    display: block;
+    content: '';
+    background: #2B7AF1;
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 52%;
+    height: 750px;
+    z-index: -1;
+  }
+  &__left{
+    display: flex;
+    align-items: center;
+    column-gap: 54px;
+  }
+  &__inner{
+    display: flex;
+    align-items: center;
+    column-gap: 52px;
+  }
+  &__right{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+  }
+  &__email{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: white;
+  }
+  &__tel{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color:white;
+  }
+}
