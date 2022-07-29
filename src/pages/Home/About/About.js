@@ -48,6 +48,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <hr/>
             </div>
         </section>
     );
