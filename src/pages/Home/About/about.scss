@@ -1,0 +1,39 @@
+.about{
+  &__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+    margin-bottom: 40px;
+  }
+  &__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #111111;
+    width: 65%;
+  }
+  &__right{
+    display: flex;
+    align-items: center;
+    column-gap: 102px;
+  }
+  &__item{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    &-count{
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2B7AF1;
+    }
+
+  }
+
+}

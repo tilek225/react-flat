@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from "../../../components/Button/Button";
 import './hero.scss'
-import bg from '../../../images/bgHero.png'
 
 const Hero = () => {
     return (

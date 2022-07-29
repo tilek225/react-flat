@@ -1,0 +1,40 @@
+Index: src/App.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from 'react'\r\nimport { Route, Routes } from 'react-router-dom';\r\nimport Layout from \"./Layout/Layout\";\r\nimport Home from \"./pages/Home/Home\";\r\n\r\nfunction App() {\r\n  return (\r\n    <div className=\"App\">\r\n        <Routes>\r\n\r\n          <Route path='/' element={<Layout/>}>\r\n            <Route path='' element={<Home/>} />\r\n          </Route>\r\n\r\n        </Routes>\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default App;\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.jsx b/src/App.jsx
+--- a/src/App.jsx	(revision 6a702dfb9cd213d3f28fd127896d5f7589c05694)
++++ b/src/App.jsx	(date 1659093566634)
+@@ -7,11 +7,9 @@
+   return (
+     <div className="App">
+         <Routes>
+-
+           <Route path='/' element={<Layout/>}>
+             <Route path='' element={<Home/>} />
+           </Route>
+-
+         </Routes>
+     </div>
+   );
+Index: .idea/discord.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/discord.xml b/.idea/discord.xml
+new file mode 100644
+--- /dev/null	(date 1659093529694)
++++ b/.idea/discord.xml	(date 1659093529694)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DiscordProjectSettings">
++    <option name="show" value="ASK" />
++    <option name="description" value="" />
++  </component>
++</project>
+\ No newline at end of file
