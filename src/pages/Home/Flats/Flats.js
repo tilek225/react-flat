@@ -87,7 +87,6 @@ const Flats = () => {
                     }}>
                         <Link to='/catalog'>
                             <Button text='Смотреть все квартиры' />
-
                         </Link>
                     </div>
                 </div>

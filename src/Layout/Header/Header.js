@@ -5,11 +5,12 @@ import './header.scss'
 import NavList from "../../components/NavList/NavList";
 import Button from "../../components/Button/Button";
 import Info from "../../components/Info/Info";
-import MobileNavigation from "../../components/MobileNavigation/MobileNavigation";
+import {Link} from "react-router-dom";
+import closeImg from "../../images/closebtn.png";
 
 const Header = () => {
 
-    const {handleModal} = useContext(CustomContext);
+    const {modal, handleModal} = useContext(CustomContext);
 
     return (
         <header className='header'>
@@ -18,10 +19,11 @@ const Header = () => {
 
                 <div className='header__left'>
                     <div className='header__logo'>
-                        <img src={logo} alt='logo' />
+                        <Link to='/'>
+                            <img src={logo} alt='logo' />
+                        </Link>
                     </div>
                     <NavList/>
-                    {/*<MobileNavigation/>*/}
                 </div>
                 <div className='header__right'>
                     <Info/>
@@ -29,6 +31,22 @@ const Header = () => {
                 </div>
                 </div>
             </div>
+            {
+                modal && (
+                    <form className='modal'>
+                        <div className="modal__title">
+                            Заказать звонок
+                            <button type='text' onClick={() => handleModal(!modal)}>
+                                <img src={closeImg} alt="close"/>
+                            </button>
+                        </div>
+                        <p className='modal__text'>Оставьте заявку и мы свяжемся с Вами в ближайшее время!</p>
+                        <input type="text" placeholder='Имя' className='modal__input'/>
+                        <input type="tel" placeholder='Телефон' className='modal__input'/>
+                        <Button text='Отправить' />
+                    </form>
+                )
+            }
         </header>
     );
 };

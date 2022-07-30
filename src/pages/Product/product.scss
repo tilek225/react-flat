@@ -1,9 +1,101 @@
 .product{
+  margin-bottom: 114px;
   &__title{
     font-weight: 800;
     font-size: 36px;
     line-height: 44px;
     color: #2B7AF1;
     margin-bottom: 40px;
+  }
+ &__top{
+   display: flex;
+   align-items: center;
+   column-gap: 43px;
+ }
+  &__inner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+  }
+  &__right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+  }
+  &__subtitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+
+  }
+  &__price{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2B7AF1;
+  }
+  &__address{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+  }
+  &__middle{
+    &-title{
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+  }
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    &-item{
+      position: relative;
+      &::after{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        border-radius: 10px;
+        top:25%;
+        left: -15px;
+        background: #FFB039;
+      }
+    }
+
+  }
+  &__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 34px;
+    &-title{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #333333;
+    }
   }
 }
