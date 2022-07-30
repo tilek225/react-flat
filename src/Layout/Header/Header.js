@@ -5,6 +5,7 @@ import './header.scss'
 import NavList from "../../components/NavList/NavList";
 import Button from "../../components/Button/Button";
 import Info from "../../components/Info/Info";
+import MobileNavigation from "../../components/MobileNavigation/MobileNavigation";
 
 const Header = () => {
 
@@ -20,6 +21,7 @@ const Header = () => {
                         <img src={logo} alt='logo' />
                     </div>
                     <NavList/>
+                    {/*<MobileNavigation/>*/}
                 </div>
                 <div className='header__right'>
                     <Info/>

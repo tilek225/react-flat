@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { NavLink} from "react-router-dom";
+import {CustomContext} from "../../Context";
 import './navlist.scss'
 
 const setActive = ({isActive}) => isActive ? 'nav__active' : 'nav__item';
 
 const NavList = () => {
+
+    const {open, handleOpen} = useContext(CustomContext);
+
     return (
         <nav className='nav'>
             <NavLink to='/' className={setActive}>
@@ -19,6 +23,7 @@ const NavList = () => {
             <NavLink to='/about' className={setActive}>
                 О нас
             </NavLink>
+
         </nav>
     );
 };

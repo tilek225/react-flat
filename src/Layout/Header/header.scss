@@ -1,17 +1,6 @@
 .header{
   padding: 30px;
   position: relative;
-  &::after{
-    display: block;
-    content: '';
-    background: #2B7AF1;
-    position: absolute;
-    top: 0;
-    right:0;
-    width: 52%;
-    height: 830px;
-    z-index: -1;
-  }
   &__left{
     display: flex;
     align-items: center;
