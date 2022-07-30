@@ -1,0 +1,77 @@
+.footer{
+  z-index: -1;
+  margin-top: -150px;
+  padding-top: 500px;
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0.7)
+  ), url("../../images/footerbg.png") no-repeat center/cover ;
+  &__inner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  &__left{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+  }
+  &__nav{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    &-active{
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+      border-bottom: 3px solid white;
+    }
+  }
+  &__item{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  &__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__right{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    &-info{
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+    }
+  }
+  &__hr{
+    height: 1px;
+    background: #C4C4C4;
+    border: none;
+  }
+  &__bottom{
+    display: flex;
+    align-items: center;
+    column-gap: 229px;
+    padding-bottom: 50px;
+  }
+  &__copyright{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+  &__contract {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+}

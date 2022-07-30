@@ -5,6 +5,7 @@ import NavList from "../../components/NavList/NavList";
 import * as Md from 'react-icons/md'
 import {AiOutlinePhone} from 'react-icons/ai'
 import Button from "../../components/Button/Button";
+import Info from "../../components/Info/Info";
 
 const Header = () => {
     return (
@@ -19,14 +20,7 @@ const Header = () => {
                     <NavList/>
                 </div>
                 <div className='header__right'>
-                    <div className='header__email'>
-                        <Md.MdOutlineEmail  size={20}  />
-                        <p className='header__email-text'>mail@yandex.ru</p>
-                    </div>
-                    <div className='header__tel'>
-                        <AiOutlinePhone size={20} />
-                        <p className='header__tel-text'>+7 (919) 714-25-00</p>
-                    </div>
+                    <Info/>
                     <Button text='Заказать звонок'/>
                 </div>
                 </div>

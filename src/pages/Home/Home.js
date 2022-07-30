@@ -5,6 +5,7 @@ import Flats from "./Flats/Flats";
 import About from "./About/About";
 import Contacts from "./Contacts/Contacts";
 import Reviews from "./Reviews/Reviews";
+import Write from "./Write/Write";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <About/>
             <Contacts/>
             <Reviews/>
+            <Write/>
         </div>
     );
 };
