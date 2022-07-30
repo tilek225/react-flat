@@ -1,13 +1,15 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import {CustomContext} from "../../Context";
 import logo from '../../images/logo.png'
 import './header.scss'
 import NavList from "../../components/NavList/NavList";
-import * as Md from 'react-icons/md'
-import {AiOutlinePhone} from 'react-icons/ai'
 import Button from "../../components/Button/Button";
 import Info from "../../components/Info/Info";
 
 const Header = () => {
+
+    const {handleModal} = useContext(CustomContext);
+
     return (
         <header className='header'>
             <div className='container'>
@@ -21,7 +23,7 @@ const Header = () => {
                 </div>
                 <div className='header__right'>
                     <Info/>
-                    <Button text='Заказать звонок'/>
+                    <Button text='Заказать звонок' handleModal={handleModal}/>
                 </div>
                 </div>
             </div>

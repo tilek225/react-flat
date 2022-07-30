@@ -77,8 +77,10 @@
 
 .g2 {
   grid-area: g2;
-  background: rgba(17, 17, 17, 0.5);
-  box-shadow: 0 10px 20px rgba(17, 17, 17, 0.1);
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0.7)
+  ),  url('../../../images/bg2.png') top left/cover no-repeat ;
   border-radius: 10px;
   border: 1px solid black;
   display: flex;
@@ -87,8 +89,10 @@
 }
 .g4 {
   grid-area: g4;
-  background: rgba(17, 17, 17, 0.5);
-  box-shadow: 0 10px 20px rgba(17, 17, 17, 0.1);
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0.7)
+  ),  url('../../../images/footerbg.png') top left/cover  no-repeat ;
   border-radius: 10px;
   border: 1px solid black;
   display: flex;
@@ -97,7 +101,10 @@
 }
 .g1 {
   grid-area: g1;
-  background: url('../../../images/bg1.png') no-repeat center/cover;
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0.7)
+  ),  url('../../../images/bg1.png') top left/cover no-repeat ;
   border-radius: 10px;
   border: 1px solid black;
   display: flex;
@@ -106,8 +113,10 @@
 }
 .g3 {
   grid-area: g3;
-  background: rgba(17, 17, 17, 0.5);
-  box-shadow: 0 10px 20px rgba(17, 17, 17, 0.1);
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.7),
+                  rgba(0, 0, 0, 0.7)
+  ),  url('../../../images/bg3.png') center/cover  no-repeat ;
   border-radius: 10px;
   border: 1px solid black;
   display: flex;
