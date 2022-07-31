@@ -56,3 +56,15 @@ hr{
     }
   }
 }
+
+@media(max-width:746px){
+  .about{
+    &__right{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      row-gap: 30px;
+    }
+  }
+}

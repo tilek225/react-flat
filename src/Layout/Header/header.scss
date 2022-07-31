@@ -83,3 +83,17 @@
     }
   }
 }
+@media(max-width: 610px){
+  .header__inner{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+}
+@media(max-width:464px){
+  .header__inner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+}

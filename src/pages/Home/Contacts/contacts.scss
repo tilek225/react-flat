@@ -72,3 +72,23 @@
     }
   }
 }
+@media(max-width:664px){
+  .contacts__map{
+    width: 464px;
+  }
+}
+@media (max-width: 464px) {
+  .contacts__map{
+    width: 364px;
+  }
+}
+@media(max-width: 400px){
+  .contacts__btn{
+    display: none;
+  }
+}
+@media(max-width:364px){
+  .contacts__map{
+    width: 264px;
+  }
+}

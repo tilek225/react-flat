@@ -58,3 +58,33 @@
   }
 }
 
+@media(max-width:1083px){
+  .hero{
+    background: #2B7AF1;
+    padding: 100px 0;
+    &::before{
+      display: none;
+    }
+    &::after{
+      display: none;
+    }
+    &__inner{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    &__title{
+      width: 50%;
+      font-size: 30px;
+      text-align: center;
+      color: white;
+    }
+    &__subtitle{
+      width: 100%;
+      font-size: 20px;
+      color:white;
+    }
+  }
+}

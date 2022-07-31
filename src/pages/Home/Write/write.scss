@@ -67,3 +67,18 @@
     }
   }
 }
+
+@media(max-width:925px){
+  .write{
+    &__right{
+      display: none;
+    }
+  }
+}
+@media(max-width: 400px){
+  .write{
+    &__form{
+      min-width: 300px;
+    }
+  }
+}
