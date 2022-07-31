@@ -3,6 +3,7 @@
   &__inner{
     display:flex;
     align-content: center;
+    justify-content: center;
     column-gap: 20px;
   }
   &__item{
@@ -23,6 +24,21 @@
       color: #111111;
       margin-top: 16px;
       width: 60%;
+    }
+  }
+}
+@media(max-width:1314px){
+  .advantages{
+    &__inner{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 20px;
+    }
+    &__item{
+      padding-top: 25px;
+      &-text{
+        font-size: 14px;
+      }
     }
   }
 }

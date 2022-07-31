@@ -11,7 +11,7 @@ const Flats = () => {
                 <div className="flats__inner">
                     <h2 className='flats__title'>Наши квартиры</h2>
                     <div className="flats__grid">
-                        <div className="g2">
+                        <div className="g2 flats__item">
                             <div className="flats__info">
                                 <p className='flats__info-title'>Трёхкомнатная квартира </p>
                                 <p className='flats__info-price'>
@@ -28,7 +28,7 @@ const Flats = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="g4">
+                        <div className="g4 flats__item">
                             <div className="flats__info">
                                 <p className='flats__info-title'>Пятикомнатная квартира </p>
                                 <p className='flats__info-price'>
@@ -45,7 +45,7 @@ const Flats = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="g1">
+                        <div className="g1 flats__item">
                             <div className="flats__info">
                                 <p className='flats__info-title'>Однокомнатная квартира</p>
                                 <p className='flats__info-price'>
@@ -62,7 +62,7 @@ const Flats = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="g3">
+                        <div className="g3 flats__item">
                             <div className="flats__info">
                                 <p className='flats__info-title'>Двухкомнатная квартира </p>
                                 <p className='flats__info-price'>

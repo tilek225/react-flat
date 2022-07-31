@@ -75,3 +75,11 @@
     color: #FFFFFF;
   }
 }
+
+@media(max-width:1192px){
+  .footer{
+    &__nav{
+      display: none;
+    }
+  }
+}

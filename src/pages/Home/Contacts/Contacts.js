@@ -41,7 +41,7 @@ const Contacts = () => {
                         </div>
                     </div>
                     <div className="contacts__right">
-                        <img src={map} alt="map"/>
+                        <img className='contacts__map' src={map} alt="map"/>
                     </div>
                 </div>
             </div>

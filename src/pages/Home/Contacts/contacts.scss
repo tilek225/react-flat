@@ -52,3 +52,23 @@
     align-items: center;
   }
 }
+
+@media(max-width:1312px){
+  .contacts{
+    &__inner{
+      column-gap: 50px;
+    }
+    &__map{
+      width: 664px;
+    }
+  }
+}
+@media(max-width: 1128px){
+  .contacts{
+    &__inner{
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+    }
+  }
+}

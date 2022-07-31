@@ -123,3 +123,18 @@
   flex-direction: column;
   padding: 20px 40px;
 }
+
+@media(max-width:1130px){
+  .flats{
+    &__grid{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__item{
+      width: 35%;
+      height: 40%;
+    }
+  }
+}

@@ -10,3 +10,12 @@
   column-gap: 10px;
   color:white;
 }
+
+@media(max-width: 1082px){
+  .header__email-text{
+    display: none;
+  }
+  .tel__text{
+    display: none;
+  }
+}
