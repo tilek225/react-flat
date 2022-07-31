@@ -8,7 +8,7 @@ import map from '../../../images/Map.png'
 
 const Contacts = () => {
     return (
-        <section className='contacts'>
+        <section className='contacts' id='contacts'>
             <div className="container">
                 <h4 className="contacts__title">Контакты</h4>
                 <div className="contacts__inner">

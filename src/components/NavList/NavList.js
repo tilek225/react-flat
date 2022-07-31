@@ -17,12 +17,12 @@ const NavList = () => {
             <NavLink to='/catalog' className={setActive}>
                 Квартиры
             </NavLink>
-            <NavLink to='/contacts' className={setActive}>
+            <a href='#contacts'>
                 Контакты
-            </NavLink>
-            <NavLink to='/about' className={setActive}>
+            </a>
+            <a href='#about'>
                 О нас
-            </NavLink>
+            </a>
 
         </nav>
     );

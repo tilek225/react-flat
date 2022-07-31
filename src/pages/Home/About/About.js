@@ -6,7 +6,7 @@ import img3 from '../../../images/about3.png'
 
 const About = () => {
     return (
-        <section className='about'>
+        <section className='about' id='about'>
             <div className="container">
                 <h3 className="about__title">О нас</h3>
                 <div className="about__inner">
